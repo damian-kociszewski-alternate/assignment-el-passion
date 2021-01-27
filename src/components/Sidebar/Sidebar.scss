@@ -1,0 +1,14 @@
+@import '../../assets/styles/variables';
+
+.sidebar {
+	height: 100%;
+	width: 150px;
+	background-color: rgba($primary-blue, .96);
+	border-top-left-radius: $default-border-radius;
+	border-bottom-left-radius: $default-border-radius;
+
+	@supports (backdrop-filter: none) {
+		backdrop-filter: blur($default-blur-radius);
+		background-color: rgba($primary-blue, .88);
+	}
+}

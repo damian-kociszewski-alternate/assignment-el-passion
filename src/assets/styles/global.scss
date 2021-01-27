@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	overflow: hidden;
+	line-height: 1.15;
+}
+
+.center-with-flex {
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+}

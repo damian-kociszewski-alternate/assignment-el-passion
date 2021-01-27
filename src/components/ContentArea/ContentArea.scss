@@ -1,0 +1,12 @@
+@import '../../assets/styles/variables';
+
+.content-area {
+	flex: 1;
+	background-color: $light-grey;
+	border-top-right-radius: $default-border-radius;
+	border-bottom-right-radius: $default-border-radius;
+	padding: 11px 19px 11px 15px;
+	overflow-y: scroll;
+
+	// TODO: I have to do scroll
+}
