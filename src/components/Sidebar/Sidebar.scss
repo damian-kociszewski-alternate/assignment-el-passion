@@ -9,6 +9,6 @@
 
 	@supports (backdrop-filter: none) {
 		backdrop-filter: blur($default-blur-radius);
-		background-color: rgba($primary-blue, .88);
+		background-color: rgba($primary-blue, .84);
 	}
 }

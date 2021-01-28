@@ -1,0 +1,21 @@
+@import '../../assets/styles/variables';
+
+.issue-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5px;
+	border: 1px solid $default-border-color;
+	padding: 13px 12px 12px 13px;
+	background-color: $plain-white;
+	border-radius: $alternate-border-radius;
+
+	&-star-button {
+		height: 16px;
+		width: 17px;
+		border: none;
+		padding: 0;
+		background-color: transparent;
+		min-width: 17px;
+	}
+}

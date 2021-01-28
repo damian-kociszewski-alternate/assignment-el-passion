@@ -1,0 +1,16 @@
+@import '../../assets/styles/variables';
+
+.date-divider {
+	display: flex;
+	width: 100%;
+	margin: 11px 0 10px 0;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&-text {
+		color: $dark-grey;
+		font-size: 12px;
+	}
+}

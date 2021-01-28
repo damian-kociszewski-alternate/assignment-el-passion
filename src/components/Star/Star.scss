@@ -1,0 +1,21 @@
+@import '../../assets/styles/variables';
+
+.star {
+	.outer-path {
+		fill: $grey;
+	}
+
+	.inner-path {
+		fill: $plain-white;
+	}
+
+	&.selected {
+		.outer-path {
+			fill: $primary-blue-selected-star;
+		}
+
+		.inner-path {
+			fill: $primary-blue-selected-star;
+		}
+	}
+}
