@@ -1,11 +1,14 @@
 import Desktop from '../Desktop';
+import GithubIssuesApp from '../GithubIssuesApp';
 import Window from '../Window';
 
 import './App.scss';
 
 const App = () => (
     <Desktop>
-        <Window />
+        <Window>
+            <GithubIssuesApp />
+        </Window>
     </Desktop>
 );
 
