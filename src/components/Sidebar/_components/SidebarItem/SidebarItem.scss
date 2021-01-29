@@ -1,14 +1,14 @@
 @import '../../../../assets/styles/variables';
 
 .sidebar-item {
-	padding: 17px 15px;
-	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	cursor: pointer;
+	display: flex;
 	flex-wrap: wrap;
 	font-size: 14px;
+	justify-content: space-between;
+	padding: 17px 15px;
 	transition: 100ms background-color;
-	cursor: pointer;
 
 	&:hover {
 		background-color: rgba($primary-blue-selected, .4);
@@ -41,8 +41,8 @@
 		}
 
 		&-text {
-			margin-left: 9px;
 			color: $plain-white;
+			margin-left: 9px;
 		}
 
 		&-total-items {

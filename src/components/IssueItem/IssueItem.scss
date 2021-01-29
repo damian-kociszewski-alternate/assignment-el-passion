@@ -1,21 +1,21 @@
 @import '../../assets/styles/variables';
 
 .issue-item {
+	align-items: center;
+	background-color: $plain-white;
+	border: 1px solid $default-border-color;
+	border-radius: $alternate-border-radius;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 	margin-bottom: 5px;
-	border: 1px solid $default-border-color;
 	padding: 10px 12px 9px 13px;
-	background-color: $plain-white;
-	border-radius: $alternate-border-radius;
 
 	&-star-button {
-		height: 16px;
-		width: 17px;
-		border: none;
-		padding: 0;
 		background-color: transparent;
+		border: none;
+		height: 16px;
 		min-width: 17px;
+		padding: 0;
+		width: 17px;
 	}
 }
