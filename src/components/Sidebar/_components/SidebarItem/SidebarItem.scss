@@ -1,4 +1,4 @@
-@import '../../assets/styles/variables';
+@import '../../../../assets/styles/variables';
 
 .sidebar-item {
 	padding: 17px 15px;
@@ -32,7 +32,7 @@
 		}
 	}
 
-	.sidebar-item-part {
+	&-part {
 		&-icon {
 			svg {
 				height: 16px;
@@ -46,7 +46,7 @@
 		}
 
 		&-total-items {
-			color: $grey;
+			color: $dark-grey;
 			font-size: 12px;
 		}
 	}

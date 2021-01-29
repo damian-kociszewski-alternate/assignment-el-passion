@@ -3,11 +3,7 @@
 .date-divider {
 	display: flex;
 	width: 100%;
-	margin: 11px 0 10px 0;
-
-	&:first-child {
-		margin-top: 0;
-	}
+	margin-bottom: 8px;
 
 	&-text {
 		color: $dark-grey;

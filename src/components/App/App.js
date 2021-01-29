@@ -3,12 +3,10 @@ import Window from '../Window';
 
 import './App.scss';
 
-const App = () => {
-    return (
-        <Desktop>
-            <Window />
-        </Desktop>
-    );
-}
+const App = () => (
+    <Desktop>
+        <Window />
+    </Desktop>
+);
 
 export { App };

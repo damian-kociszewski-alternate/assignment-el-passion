@@ -1,20 +1,20 @@
 @import '../../assets/styles/variables';
 
-.star {
-	.outer-path {
+.star-icon {
+	&-outer-path {
 		fill: $grey;
 	}
 
-	.inner-path {
+	&-inner-path {
 		fill: $plain-white;
 	}
 
 	&.selected {
-		.outer-path {
+		.star-outer-path {
 			fill: $primary-blue-selected-star;
 		}
 
-		.inner-path {
+		.star-inner-path {
 			fill: $primary-blue-selected-star;
 		}
 	}

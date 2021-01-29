@@ -1,4 +1,5 @@
 import Star from '../Star';
+
 import './IssueItem.scss';
 
 const IssueItem = ({ title, starred }) => (
