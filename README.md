@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Your task is to code template for Github issues application. Try to reproduce application design as much as you can,
+doing it in “pixel perfect” way.
 
-## Available Scripts
+Requirements:
 
-In the project directory, you can run:
+- template needs to have all essential elements like: sidebar, navigation with filters, main frame with issues list, OSX
+  buttons
+- filter buttons in navigation should have hover and active state
+- the star in single issue bar needs to be clikable and change it’s state after click (as it is in design)
 
-### `yarn start`
+Recommendations:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- pay attention to proper usage of HTML elements and CSS styles
+- look to appropriate class naming according to known conventions
+- try to code template in such a way that it can be applied to real application
+- write code in component way - elements need to be reusable
+- you don’t need to change scrollbar!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+When you're ready, send us a link to your GitHub repository. Any questions? Feel free to contact us!
 
-### `yarn test`
+Attached to this e-mail you will find a desktop application design (PSD + Assets). The app is for fetching GitHub
+issues. Your task is to reproduce the design as much as you can, doing it in "pixel perfect" way.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 2
 
-### `yarn build`
+The template needs to have all essential elements like sidebar, navigation with filters, mainframe with issues list,
+OSX-like buttons. Filter buttons in navigation should have hover and active state. The star in the single-issue bar
+needs to be clickable and change its state after click (as it is in design). All changes done in the project should be
+committed to GIT repository. The task concerns only the layout/template. Please do not include any business logic.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Recommendations:
+Pay attention to proper usage of HTML elements and CSS styles. Look to an appropriate class naming according to the
+known conventions. Try to code a template in such a way that it can be applied to a real application. Write your code in
+component way - elements need to be reusable. You don’t need to change the scrollbar!
+When you complete the assignment, please send us a link to Github repo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Hint: what we'd like to see the most is your styling, so don’t waste time doing the whole application, a layout will be
+sufficient.
