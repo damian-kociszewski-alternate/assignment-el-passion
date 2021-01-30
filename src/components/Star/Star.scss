@@ -3,10 +3,17 @@
 .star-icon {
 	&-outer-path {
 		fill: $grey;
+		transition: 100ms fill;
 	}
 
 	&-inner-path {
 		fill: $plain-white;
+	}
+
+	&:hover {
+		.star-icon-outer-path {
+			fill: $primary-blue-selected-star;
+		}
 	}
 
 	&.selected {
